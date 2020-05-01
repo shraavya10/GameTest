@@ -194,16 +194,16 @@ for( var i = 0; i<asteroidGroup.length;i++ ){
 
   textSize(20);
    
-  fill("black")
+  //fill("black")
   textFont('Georgia');
-    text("Kms Run: "+ score,30,50);
+    //text("Kms Run: "+ score,30,50);
   if (Oxylevel<4){
     fill("red");
-    text("oxygen: "+ Oxylevel,30,70);
+    text("oxygen is critically low",300,70);
   }
   else{
     fill("green");
-    text("oxygen: "+ Oxylevel,30,70);
+    text("oxygen in safe level: ",300,70);
 
   }
   
