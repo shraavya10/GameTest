@@ -193,7 +193,7 @@ for( var i = 0; i<asteroidGroup.length;i++ ){
   drawSprites();
 
   textSize(20);
-   
+   text("tap on galaxy screen to make astronaut jump",30,30);
   //fill("black")
   textFont('Georgia');
     if (Oxylevel<4){
