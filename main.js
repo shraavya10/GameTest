@@ -193,8 +193,10 @@ for( var i = 0; i<asteroidGroup.length;i++ ){
   drawSprites();
 
   textSize(20);
+   
   fill("black")
-  text("Kms Run: "+ score,30,50);
+  textFont('Georgia');
+    text("Kms Run: "+ score,30,50);
   if (Oxylevel<4){
     fill("red");
     text("oxygen: "+ Oxylevel,30,70);
