@@ -191,17 +191,17 @@ for( var i = 0; i<asteroidGroup.length;i++ ){
   
   drawSprites();
 
-  textSize(30);
+  textSize(20);
   fill("black");
-  text("Space distance covered in Kms:" +score,40,70);
+  text("Space distance covered in Kms:" +score,30,50);
   if (Oxylevel<4){
     fill("red");
-    text("Oxygen:" +Oxylevel,40,40);
+    text("Oxygen:" +Oxylevel,30,70);
 
   }
   else{
     fill("black");
-    text("Oxygen:" +Oxylevel,40,40);
+    text("Oxygen:" +Oxylevel,30,70);
 
   }
   
