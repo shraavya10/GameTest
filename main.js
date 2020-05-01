@@ -82,6 +82,7 @@ function setup() {
   obstaclesGroup = new Group();
   asteroidGroup=new Group();
   //score = 10;
+  score = 0;Oxylevel=10;
 }
 
 function draw() {
